@@ -21,6 +21,19 @@ body {
   color: var(--white);
   /* overflow-x: hidden; */
 }
+/* width of scrollbar */
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+/* track of scrollbar */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+/* handle of scrollbar */
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 3rem;
+}
 input {
   font-family: "Inter", sans-serif;
 }
