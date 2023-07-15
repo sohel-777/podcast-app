@@ -38,7 +38,7 @@ function Profile() {
         
         </div>
        
-        <Button  width={"225px"} text={"Logout"} onClick={handleLogout} />
+        <Button  width={"300px"} text={"Logout"} onClick={handleLogout} />
 
         
       </div>
